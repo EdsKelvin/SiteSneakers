@@ -1,0 +1,12 @@
+p{
+   /* font-family: fantasy;fonte das letras */
+   /* font-size: 10px;tamanho da fonte */
+   /* font-weight: ;negrito da fonte*/
+   /* line-height: ; espacamento das linhas*/
+}
+h1{
+    text-align: center;/*posiciona o h1 */
+    font-family: 'Montserrat:wght@100';
+   /* text-decoration: underline; decora o texto*/
+
+}

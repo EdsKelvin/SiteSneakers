@@ -1,0 +1,36 @@
+#um{
+    
+    
+    width: 50%;
+    float: left;
+
+}
+#dois{
+    
+    width: 50%;
+    float: right;
+}
+
+#EC{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+#EB{
+    background-color: green;
+   width: 200px;
+   height: 200px;
+   margin-top: 52%;
+}
+#DC{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+#DB{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin-top: 52%;
+   
+}
