@@ -14,21 +14,46 @@
         </div>
         <ul class="navigation">
             <a href="Index.html"><li>Inicio</li></a>
-            <a href = "teste.html" target = "_self"><li>Produtos</li></a>
-            <a href = "Perfil.html" target = "_self"><li>Perfil</li></a>
+            <a href="teste.html" target="_self"><li>Produtos</li></a>
+            <a href="Perfil.html" target="_self"><li>Perfil</li></a>
             <a href="Login.html" target="_self"><li>Login</li></a>
-            <a><li><input type="text" placeholder="Buscar produtos" class="buscar_produtos"></li></a>
+            <li><input type="text" placeholder="Buscar produtos" class="buscar_produtos"></li>
         </ul>
     </div>
    </div>
    <div class="main">
-    
     <div class="nome"><h3>Seu Nome</h3></div>
     <div class="email"><h3>SeuEmail@</h3></div>
     <div class="telefone"><h3>(XX)-9XXXX-XXXXX</h3></div>
-    <div class="enderecos"><h3>Endereço :<h4>Rua joão pessoa</h4></h3></div>
-    <div class="Editar"> <button>Editar informações</button></div>
-   
+    <div class="enderecos"><h3>Endereço:<br><span>Rua João Pessoa</span></h3></div>
+    <div id="container">
+        <p id="edit"><b>Clique para editar as Informações</b></p>
+        
+        <button type="submit" id="edit-button">Editar</button>
+        <button type="submit" id="end-editing">Finalizar</button>
+    </div>
    </div>
+
+   <script>
+    const paragraph = document.getElementById("edit");
+    const edit_button = document.getElementById("edit-button");
+    const end_button = document.getElementById("end-editing");
+
+    edit_button.addEventListener("click", function() {
+      paragraph.contentEditable = true;
+      paragraph.style.backgroundColor = "#dddbdb";
+
+      // Exibir um alerta quando o botão de edição for clicado
+      alert("Você iniciou a edição do parágrafo!");
+    });
+
+    end_button.addEventListener("click", function() {
+      paragraph.contentEditable = false;
+      paragraph.style.backgroundColor = "#dddbdb";
+
+      // Exibir um alerta quando o botão de finalizar edição for clicado
+      alert("Você finalizou a edição do parágrafo!");
+    });
+  </script>
 </body>
 </html>
