@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+.Cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.Cabeçalho-link a{
+    color: #111;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.Cabeçalho-link a:hover{
+    color: #111;
+}
+div{
+    width: 100px;
+    height: 100px;
+    
+}
+.container{
+   
+}
+.tenis{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
