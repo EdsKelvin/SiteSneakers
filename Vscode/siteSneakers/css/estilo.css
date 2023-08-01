@@ -29,7 +29,7 @@ div{
     
 }
 .container{
-   
+    display: flex;
 }
 .tenis{
     width: 20%;
@@ -38,6 +38,7 @@ div{
     flex-direction: row;
     
 }
+
 
 
 
